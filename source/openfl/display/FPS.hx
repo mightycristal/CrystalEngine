@@ -49,7 +49,7 @@ class FPS extends TextField
 		defaultTextFormat = new TextFormat(("Minecraft"), 22, color);
 		autoSize = LEFT;
 		multiline = true;
-		text = "CE 1.0";
+		text = "CE 1.0.5b";
 		textColor = 0xFF7700FF;
 		
 
