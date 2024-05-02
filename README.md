@@ -21,6 +21,5 @@ To install LuaJIT do this: `haxelib git linc_luajit https://github.com/AndreiRud
 _____________________________________
 
 ## Some cool features
-new scoretxt
+* new scoretxt
 * opponent health drain
-* 
