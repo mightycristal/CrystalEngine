@@ -25,7 +25,7 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '1.0'; //This is also used for Discord RPC
+	public static var psychEngineVersion:String = '1.0.5'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -124,7 +124,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-		var versionShit:FlxText = new FlxText(1090, FlxG.height - 44, 0, "CRYSTAL ENGINE " + psychEngineVersion, 12);
+		var versionShit:FlxText = new FlxText(1090, FlxG.height - 44, 0, "Experimental CE " + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("Minecraft", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
